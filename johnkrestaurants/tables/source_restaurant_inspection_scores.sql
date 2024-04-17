@@ -1,4 +1,4 @@
-CREATE TABLE `johnkrestaurants`.`lmky_restaurant_inspection_scores` (
+CREATE TABLE `source_restaurant_inspection_scores` (
     `EstablishmentID` int DEFAULT NULL,
     `InspectionID` int DEFAULT NULL,
     `Ins_TypeDesc` varchar(19) DEFAULT NULL,
@@ -16,4 +16,4 @@ CREATE TABLE `johnkrestaurants`.`lmky_restaurant_inspection_scores` (
     `NameSearch` varchar(50) DEFAULT NULL,
     `Intersection` varchar(10) DEFAULT NULL,
     `ObjectId` int DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3
+);
